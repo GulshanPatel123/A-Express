@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==Title==================================-->
+    <title>
+
+        A Express
+
+    </title>
+
+    <!--==Stylesheet=============================-->
+    <link rel="stylesheet" type="text/css" href="Home Page CSS.css">
+
+    <!--==Fav-icon===============================-->
+    <link rel="shortcut icon" href="image/fav-icon.png" />
+
+    <!--==Using-Font-Awesome=====================-->
+    <script src="https://kit.fontawesome.com/5471644867.js" crossorigin="anonymous"></script>
+
+    <script src='Home Page JS.js' defer></script>
+
+    <link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico" />
+
+</head>
+
+<body>
+
+    <!--==Navigation================================-->
+    <nav class="navigation">
+
+        <!--logo-------->
+        <a href="#" class="logo">
+
+            <span>A</span>Express
+
+        </a>
+
+        <!--menu-btn---->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+
+        <label for="menu-btn" class="menu-icon">
+
+                <span class="nav-icon"></span>
+
+            </label>
+
+        <!--menu-------->
+        <ul class="menu">
+
+            <li>
+                <a href="index.html" class="active">
+                        
+                        Home
+
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="#category">
+
+                        Categories
+                    
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="#popular-bundle-pack">
+                        
+                        Packages
+                    
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="Contact Form HTML.html">
+                        
+                        Contact&nbsp;Us
+                    
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="Feedback Form HTML.html">
+                        
+                        Feedback
+                    
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="About Us HTML.html">
+
+						About&nbsp;us
+
+					</a>
+
+            </li>
+
+            <li>
+
+                <a href="#download-app">
+                        
+                        App
+                    
+                    </a>
+
+            </li>
+
+            <li>
+
+                <a href="Login And Registration HTML.html">
+                            
+                        Sign&nbsp;up
+                        
+                    </a>
+
+            </li>
+
+
+            <li>
+
+                <a href="Login And Registration HTML.html">
+                        
+                        Login
+                    
+                    </a>
+
+            </li>
+
+        </ul>
+
+        <!--right-nav-(cart-like)-->
+        <div class="right-nav">
+
+            <!--like----->
+            <a href="Wishlist HTML.html" class="like">
+                <img class="no" src="image/wishlist.png">
+                <i class="fas fa-heart"></i>
+
+                <span>
+                        
+                        2
+                    
+                    </span>
+
+            </a>
+
+            <!--cart----->
+            <a href="Shopping Cart HTML.html" class="cart">
+                <img class="no" src="image/cart.png">
+                <i class="fas fa-shopping-cart"></i>
+
+                <span>
+                        
+                        2
+                    
+                    </span>
+
+            </a>
+
+            <!--cart----->
+            <a href="Profile HTML.html" class="user-profile">
+                <img class="no" src="image/profile3.png">
+                <i class="fas fa-user"></i>
+
+                <span>
+
+                        1
+
+                    </span>
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+
+        <!--bg--------->
+        <img alt="bg" class="bg-1" src="image/bg.png">
+
+        <img alt="bg" class="bg-1_rev" src="image/bg-1.png">
+
+        <img alt="bg-2" class="bg-2" src="image/bg-2.png">
+
+        <!--text------->
+        <div class="search-banner-text">
+
+            <h1>
+
+                Order Your daily Groceries
+
+            </h1>
+
+            <strong>
+                    
+                    #Free Delivery
+                
+                </strong>
+
+            <!--search-box------>
+            <form action="" class="search-box">
+
+                <!--icon------>
+                <i class="fas fa-search"></i>
+
+                <!--input----->
+                <input type="text" class="search-input" placeholder="Search" name="search" size="80px" required>
+
+                <!--btn------->
+                <input type="submit" class="search-btn" value="Search">
+
+            </form>
+
+            <br>
+
+            <h3>
+
+                <a href='Best Deals HTML.html' style='color: #40aa54'>
+
+                    <p class="kon">Click here to learn about today's best deals</p>
+
+                </a>
+
+            </h3>
+
+        </div>
+
+    </section>
+
+    <!--search-banner-end--------------->
+
+    <h2 class='sale-heading'>
+
+        Republic Day Sale is Live For
+
+    </h2>
+
+    <div class="countdown-container">
+
+        <div class="countdown-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>Min</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+    <!--==category=========================================-->
+    <section id="category">
+
+        <!--heading---------------->
+        <div class="category-heading">
+
+            <h2>
+
+                Category
+
+            </h2>
+
+            <span>
+                    
+                    All
+                
+                </span>
+
+        </div>
+
+        <!--box-container---------->
+        <div class="category-container">
+
+            <!--box---------------->
+            <a class="category-box" href='Fruits Category Page HTML.html'>
+                <img alt="Fruits and Vegetables" src="image2/Vegetables.png">
+                <span>Fruits & <br> Vegetables</span>
+            </a>
+            <a class="category-box" href='chips.html'>
+                <img alt="Fruits and Vegetables" src="image2/biscuit2.png">
+                <span>Chips & <br> Biscuits</span>
+            </a>
+
+            <!--box---------------->
+            <a class="category-box" href='Medicine Category Page HTML.html'>
+                <img alt="Medicines" src="image2/medicine.png">
+                <span>Medicine</span>
+            </a>
+            <!--box---------------->
+            <a class="category-box" href="Baby Care Category Page HTML.html">
+                <img alt="Baby Care Products" src="image2/baby.png">
+                <span>Baby Care</span>
+            </a>
+            <!--box---------------->
+            <a class="category-box" href='Office Category Page HTML.html'>
+                <img alt="Fish" src="image2/office.png">
+                <span>Stationary</span>
+            </a>
+            <!--box---------------->
+            <a class="category-box" href='Beauty Category Page HTML.html'>
+                <img alt="Beauty Products" src="image2/beauty.png">
+                <span>Beauty</span>
+            </a>
+            <!--box---------------->
+            <a class="category-box" href='Gardening Category Page HTML.html'>
+                <img alt="Gardening Products" src="image2/Gardening.png">
+                <span>Gardening</span>
+            </a>
+        </div>
+
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/apple.png">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 100</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="chili" src="image/chili.png">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/onion.png">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/patato.png">
+                <strong>Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 60</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/garlic.png">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/tamato.png">
+                <strong>Tomato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="image/pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+4</span>
+                <span class="price">Rs. 500</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+2</span>
+                <span class="price">Rs. 800</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato</span>
+                <span class="price">Rs. 300</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="image/pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+4</span>
+                <span class="price">Rs. 900</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+2</span>
+                <span class="price">Rs. 700</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="image/pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato</span>
+                <span class="price">Rs. 400</span>
+                <!--cart-btn------->
+                <a href="Shopping Cart HTML.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <!--like-btn------->
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+        <!--heading---------------->
+        <div class="client-heading">
+            <h3>What Our Clients Say</h3>
+        </div>
+        <!--box-container---------->
+        <div class="client-box-container">
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="image/client-1.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Hariram Patel</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>A Express grocery store is the best. A express Grocery store never fails to dissapoint me. Grocery shopping has become so easy with A Express grocery store.</Str>
+                </p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="image/client-2.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Gulshan Kumar Patel</strong>
+                        <span>Software Developer</span>
+
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>A Express grocery store is just amazing. I can buy all my groceries from a single place. The groceries are available at very affordable prices. And, the groceries are delivered at the time slot you choose and prefer.</p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="image/client-3.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <a href="debashish.html"></a>
+                        <strong>Debashish Patel</strong>
+                        <span>Marketer</span>
+
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>At A Express grocery store, you can get fresh fruits and vegetables. And it is not only about fruits or vegetables, you can buy all kinds of stuff here.</p>
+            </div>
+        </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+        <!--heading------------>
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+        <!--logo-container----->
+        <div class="logo-container">
+            <img alt="logo" src="image/logo-1.png">
+            <img alt="logo" src="image/logo-2.png">
+            <img alt="logo" src="image/logo-3.png">
+            <img alt="logo" src="image/logo-4.png">
+        </div>
+    </section>
+    <!--logo-section-end--------------------->
+    <!--==download-app====================================-->
+    <section id="download-app">
+        <!--img----------------------->
+        <div class="app-img">
+            <img alt="app" src="image/mobile-app.png">
+        </div>
+        <!--text---------------------->
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Grocery shopping made easier. Now, you don't need to open the website for placing orders. Download the <b>A Express Grocery Store</b> app from Play Store and App Store to start shopping easily and faster. <br> HAPPY SHOPPING!</b>
+            </p>
+            <!--btns------->
+            <div class="download-btns">
+                <a href="https://www.apple.com/in/app-store/"><img alt="hii" src="image/appstore-btn.png"></a>
+                <a href="https://play.google.com/store"><img alt="hello" src="image/googleplay-btn.png"></a>
+            </div>
+        </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a src="image/client-1.jpg"><span>A</span>Express</a>
+                <!--social----->
+                <div class="ftco-footer-widget mb-4">
+
+
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                        <li class="ftco-animate">
+                            <a href="https://github.com/GulshanPatel123" target="_blank"><img src="image/git.png"></a>
+                        </li>
+                        <li class="ftco-animate">
+                            <a href="https://www.linkedin.com/in/gulshan-kumar-patel-6b9a351ba/" target="_blank"><img src="image/linkedin.png"></a>
+                        </li>
+                        <li class="ftco-animate">
+                            <a href="https://www.youtube.com/channel/UC30GvhRYkRZ5A0hp44476iA" target="_blank"><img src="image/youtube3.png"></a>
+                        </li>
+                        <li class="ftco-animate">
+                            <a href="https://www.instagram.com/gulshan___kumar___patel/" target="_blank"><img src="image/instagram1.png"></a>
+                        </li>
+                        <li class="ftco-animate">
+                            <a href="https://www.facebook.com/profile.php?id=100051353135291" target="_blank"><img src="image/facebook.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--links------------------------->
+            <div class="footer-links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="#category">Grocery</a></li>
+                    <li><a href="#popular-bundle-pack">Packages</a></li>
+                    <li><a>Popular</a></li>
+                    <li><a>New</a></li>
+                </ul>
+            </div>
+            <!--links------------------------->
+            <div class="footer-links">
+                <strong>Category</strong>
+                <ul class="ul">
+                    <li><a href="Beauty Category Page HTML.html">Beauty</a></li>
+                    <li><a href="Fruits Category Page HTML.html">Vegetables</a></li>
+                    <li>
+                        <a href="Baby Care Category Page HTML.html">Baby</a>
+                    </li>
+                    <li><a href="Medicine Category Page HTML.html">Medicine</a></li>
+                </ul>
+
+            </div>
+            <!--links-------------------------->
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a>Phone : 8260567589</a></li>
+                    <li><a>Email : gp682837@gmail.com</a></li>
+                    <li><a>Cities we serve is Bargarh</a></li>
+                </ul>
+                <br>
+                <p style="color: aliceblue;">Copyright ©2024 | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
